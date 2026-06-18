@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Milli Windows & Doors — Commercial Glass & Restoration | Toronto & Etobicoke</title>
+<title>Milli Windows & Doors — Commercial Glass & Restoration | Serving the GTA & Toronto</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -26,6 +26,8 @@ h1,h2,h3{font-family:'Fraunces',Georgia,serif;font-weight:500;color:var(--ink);l
 nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .nav-in{display:flex;align-items:center;justify-content:space-between;padding:1.1rem 2rem;max-width:var(--max);margin:0 auto}
 .brand{display:flex;align-items:center;gap:.65rem;text-decoration:none}
+.brand-logo{height:34px;width:auto;display:block;color:var(--steel)}
+.foot-logo{height:36px;width:auto;display:block;margin-bottom:1rem;color:#fff}
 .brand-mark{width:30px;height:30px;flex-shrink:0}
 .brand-name{font-family:'Fraunces',serif;font-size:1.32rem;color:var(--ink);font-weight:600;letter-spacing:-.01em}
 .brand-name span{color:var(--steel)}
@@ -118,6 +120,18 @@ section.block{padding:5.5rem 0}
 .cta p{color:#dceaf6;font-size:1.08rem;margin-bottom:2rem}
 .cta-row{display:flex;gap:.9rem;justify-content:center;flex-wrap:wrap}
 .cta .phone{font-family:'Fraunces',serif;font-size:1.6rem;color:#fff;text-decoration:none;display:inline-block;margin-top:1.6rem;border-bottom:2px solid rgba(255,255,255,.4);padding-bottom:.15rem}
+.form-wrap{max-width:620px;margin:2rem auto 0;text-align:left}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem}
+.form-field{display:flex;flex-direction:column}
+.form-field.full{grid-column:1/-1;margin-bottom:1rem}
+.form-field label{font-size:.82rem;font-weight:600;color:#dceaf6;margin-bottom:.4rem;letter-spacing:.02em}
+.form-field input,.form-field textarea{font-family:'Inter',sans-serif;font-size:.95rem;padding:.8rem .9rem;border:1px solid rgba(255,255,255,.25);border-radius:3px;background:rgba(255,255,255,.08);color:#fff;transition:border-color .2s,background .2s;width:100%}
+.form-field input::placeholder,.form-field textarea::placeholder{color:rgba(255,255,255,.5)}
+.form-field input:focus,.form-field textarea:focus{outline:none;border-color:#fff;background:rgba(255,255,255,.14)}
+.form-field textarea{resize:vertical;min-height:110px}
+.form-submit{width:100%;background:#fff;color:var(--ink);font-family:'Inter',sans-serif;font-size:.98rem;font-weight:600;padding:.9rem;border:none;border-radius:3px;cursor:pointer;transition:background .2s,transform .2s}
+.form-submit:hover{background:var(--mist);transform:translateY(-1px)}
+@media(max-width:680px){.form-row{grid-template-columns:1fr;gap:0}.form-row .form-field{margin-bottom:1rem}}
 footer{background:var(--ink);color:#9fb2c4;padding:3.5rem 0 2rem}
 .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2.5rem;padding-bottom:2.5rem;border-bottom:1px solid rgba(255,255,255,.1)}
 .foot-grid h4{font-family:'Inter',sans-serif;color:#fff;font-size:.95rem;font-weight:600;margin-bottom:1rem;letter-spacing:.02em}
@@ -135,11 +149,11 @@ footer{background:var(--ink);color:#9fb2c4;padding:3.5rem 0 2rem}
 </style>
 </head>
 <body>
-<div class="topbar"><div class="wrap"><span>Serving Toronto &amp; Etobicoke &nbsp;<span class="dot">&bull;</span>&nbsp; Licensed &amp; Insured</span><span>24/7 Emergency Glass &nbsp;<span class="dot">&bull;</span>&nbsp; <a href="tel:2898922382">(289) 892-2382</a></span></div></div>
+<div class="topbar"><div class="wrap"><span>Serving All of the GTA &amp; Toronto &nbsp;<span class="dot">&bull;</span>&nbsp; Licensed &amp; Insured</span><span>24/7 Emergency Glass &nbsp;<span class="dot">&bull;</span>&nbsp; <a href="mailto:brandon@milliwindows.com">brandon@milliwindows.com</a></span></div></div>
 <nav><div class="nav-in">
 <a class="brand" href="#top">
-<svg class="brand-mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="26" height="26" rx="1.5" stroke="#3a6ea5" stroke-width="2"/><line x1="16" y1="3" x2="16" y2="29" stroke="#3a6ea5" stroke-width="2"/><line x1="3" y1="16" x2="29" y2="16" stroke="#3a6ea5" stroke-width="2"/><line x1="5" y1="11" x2="11" y2="5" stroke="#5b8fc7" stroke-width="1.5"/></svg>
-<span class="brand-name">Milli<span>.</span> Windows &amp; Doors</span></a>
+<svg class="brand-logo" viewBox="0 0 366 100" fill="currentColor" role="img" aria-label="Milli Windows and Doors"><path d="M0 8 h16 l11 34 l11 -34 h16 v84 h-15 v-52 l-9 28 h-6 l-9 -28 v52 h-15 z"/><rect x="64" y="8" width="15" height="13"/><rect x="64" y="30" width="15" height="62"/><path d="M88 8 h15 v70 h26 v14 h-41 z"/><path d="M134 8 h15 v70 h26 v14 h-41 z"/><rect x="180" y="8" width="15" height="13"/><rect x="180" y="30" width="15" height="62"/><path d="M214 40 h44 v52 h-44 z M221 48 h8 v8 h-8 z M235 48 h8 v8 h-8 z M249 48 h2 v8 h-2 z M221 60 h8 v8 h-8 z M235 60 h8 v8 h-8 z M249 60 h2 v8 h-2 z M221 72 h8 v8 h-8 z M235 72 h8 v8 h-8 z M249 72 h2 v8 h-2 z" fill-rule="evenodd"/><path d="M266 56 h40 v36 h-40 z M273 64 h7 v7 h-7 z M286 64 h7 v7 h-7 z M297 64 h2 v7 h-2 z M273 76 h7 v7 h-7 z M286 76 h7 v7 h-7 z M297 76 h2 v7 h-2 z" fill-rule="evenodd"/></svg>
+</a>
 <ul class="nav-links"><li><a href="#services">Services</a></li><li><a href="#process">How We Work</a></li><li><a href="#work">Projects</a></li><li><a href="#reviews">Reviews</a></li></ul>
 <div class="nav-cta"><a href="#contact" class="btn">Request a Quote</a></div>
 </div></nav>
@@ -147,7 +161,7 @@ footer{background:var(--ink);color:#9fb2c4;padding:3.5rem 0 2rem}
 <div>
 <span class="eyebrow">Commercial Glass &amp; Restoration</span>
 <h1>Glass work your building can <em>depend on.</em></h1>
-<p class="lead">Restoration, custom glass, and 24-hour emergency replacement for commercial properties across Toronto and Etobicoke.</p>
+<p class="lead">Restoration, custom glass, and 24-hour emergency replacement for commercial properties across all of the GTA and Toronto.</p>
 <div class="hero-cta"><a href="#contact" class="btn btn-light">Request a Quote</a><a href="#work" class="btn btn-ghost" style="color:#fff;border-color:rgba(255,255,255,.25)">See Our Work</a></div>
 <div class="hero-creds">
 <span class="hero-cred"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z"/></svg> Licensed &amp; Insured</span>
@@ -161,7 +175,7 @@ footer{background:var(--ink);color:#9fb2c4;padding:3.5rem 0 2rem}
 <div class="row"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg> Same-day emergency dispatch</div>
 <div class="row"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg> Storefronts, offices &amp; multi-unit</div>
 <div class="row"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 9V5a3 3 0 00-6 0v4"/><rect x="5" y="9" width="14" height="11" rx="2"/></svg> Secured &amp; boarded if needed</div>
-<a href="tel:2898922382" class="btn">Call (289) 892-2382</a>
+<a href="#contact" class="btn">Request a Quote</a>
 </aside>
 </div></header>
 <div class="strip"><div class="strip-in">
@@ -219,16 +233,22 @@ footer{background:var(--ink);color:#9fb2c4;padding:3.5rem 0 2rem}
 </div></section>
 <section class="cta" id="contact"><div class="cta-in">
 <span class="eyebrow" style="color:#dceaf6">Get Started</span>
-<h2>Request a quote or call us now.</h2>
-<p>Tell us about your property and what needs doing. For emergencies, the fastest way to reach us is the phone.</p>
-<div class="cta-row"><a href="mailto:brandon@milliwindows.com" class="btn btn-light">Email Us</a><a href="tel:2898922382" class="btn" style="background:var(--ink)">Call 24/7 Emergency</a></div>
-<a href="tel:2898922382" class="phone">(289) 892-2382</a>
+<h2>Request a quote.</h2>
+<p>Tell us about your property and what needs doing, and we'll get right back to you. For emergencies, we respond fast, day or night.</p>
+<form class="form-wrap" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<div class="form-row">
+<div class="form-field"><label for="name">Name</label><input type="text" id="name" name="name" placeholder="Your name" required></div>
+<div class="form-field"><label for="email">Email</label><input type="email" id="email" name="email" placeholder="you@company.com" required></div>
+</div>
+<div class="form-field full"><label for="message">How can we help?</label><textarea id="message" name="message" placeholder="Tell us about the property and what needs doing..." required></textarea></div>
+<button type="submit" class="form-submit">Send Request</button>
+</form>
 </div></section>
 <footer><div class="wrap">
 <div class="foot-grid">
-<div class="foot-brand"><span class="brand-name">Milli<span style="color:var(--steel-light)">.</span> Windows &amp; Doors</span><p>Commercial window and door restoration, custom glass, caulking, and 24-hour emergency replacement, serving Toronto &amp; Etobicoke.</p></div>
+<div class="foot-brand"><svg class="foot-logo" viewBox="0 0 366 100" fill="currentColor" role="img" aria-label="Milli Windows and Doors"><path d="M0 8 h16 l11 34 l11 -34 h16 v84 h-15 v-52 l-9 28 h-6 l-9 -28 v52 h-15 z"/><rect x="64" y="8" width="15" height="13"/><rect x="64" y="30" width="15" height="62"/><path d="M88 8 h15 v70 h26 v14 h-41 z"/><path d="M134 8 h15 v70 h26 v14 h-41 z"/><rect x="180" y="8" width="15" height="13"/><rect x="180" y="30" width="15" height="62"/><path d="M214 40 h44 v52 h-44 z M221 48 h8 v8 h-8 z M235 48 h8 v8 h-8 z M249 48 h2 v8 h-2 z M221 60 h8 v8 h-8 z M235 60 h8 v8 h-8 z M249 60 h2 v8 h-2 z M221 72 h8 v8 h-8 z M235 72 h8 v8 h-8 z M249 72 h2 v8 h-2 z" fill-rule="evenodd"/><path d="M266 56 h40 v36 h-40 z M273 64 h7 v7 h-7 z M286 64 h7 v7 h-7 z M297 64 h2 v7 h-2 z M273 76 h7 v7 h-7 z M286 76 h7 v7 h-7 z M297 76 h2 v7 h-2 z" fill-rule="evenodd"/></svg><p>Commercial window and door restoration, custom glass, caulking, and 24-hour emergency replacement, serving all of the GTA &amp; Toronto.</p></div>
 <div><h4>Services</h4><a href="#services">Restoration</a><br><a href="#services">Custom Glass &amp; Railings</a><br><a href="#services">Caulking</a><br><a href="#services">Emergency Glass</a></div>
-<div><h4>Contact</h4><a href="tel:2898922382">(289) 892-2382</a><br><a href="mailto:brandon@milliwindows.com">brandon@milliwindows.com</a><br><p>Toronto &amp; Etobicoke, ON</p><p>24/7 Emergency Service</p></div>
+<div><h4>Contact</h4><a href="mailto:brandon@milliwindows.com">brandon@milliwindows.com</a><br><p>Serving all of the GTA &amp; Toronto</p><p>24/7 Emergency Service</p></div>
 </div>
 <div class="foot-bottom"><span>&copy; 2026 Milli Windows &amp; Doors. All rights reserved.</span><span>Created by North Point Digital &nbsp;&bull;&nbsp; <a href="mailto:NorthpointDigitalltd@gmail.com">NorthpointDigitalltd@gmail.com</a></span></div>
 </div></footer>
